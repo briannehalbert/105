@@ -1,0 +1,13 @@
+def divide(a, b):
+    try:
+        result = a / b
+
+    except ZeroDivisionError:
+        result = 'Divided by zero'
+        return result
+
+    except:
+        result = 'Type of operands is incorrect'
+        
+       
+        
